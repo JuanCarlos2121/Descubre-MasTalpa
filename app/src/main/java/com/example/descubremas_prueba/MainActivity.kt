@@ -27,9 +27,18 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        holamundo()
         sumaCarlos();
     }
+
 }
+
+fun holamundo(){
+    println("Hola estoy haciendo mi primer commit alv")
+}
+
+
+
 
 fun sumaCarlos(){
     var numero = 1;
