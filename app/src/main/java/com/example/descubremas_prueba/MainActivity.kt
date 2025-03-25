@@ -27,15 +27,15 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        sumaCarlos();
+        restaCarlos();
     }
 }
 
-fun sumaCarlos(){
+fun restaCarlos(){
     var numero = 1;
     var numero1 = 2;
 
-    var suma = numero + numero1;
+    var suma = numero - numero1;
 
     println(suma);
 }
