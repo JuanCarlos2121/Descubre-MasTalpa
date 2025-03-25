@@ -27,7 +27,17 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        sumaCarlos();
     }
+}
+
+fun sumaCarlos(){
+    var numero = 1;
+    var numero1 = 2;
+
+    var suma = numero + numero1;
+
+    println(suma);
 }
 
 @Composable
